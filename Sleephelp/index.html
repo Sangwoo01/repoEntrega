@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sleephelp dormir fácil con ayuda</title>
+	<link rel="stylesheet" href="css/style2.css">
+</head>
+				<!-- inicio -->
+<body class="displayGrid displayFlex">
+						
+	<nav class="gridAreanav">
+		<a href="index.html">
+		<img src="fotos/logo.png" alt="Logo de Sleephelp" width="10%">
+		</a>
+		<ul class="navUlInicio" >
+			<li class="navLiInicio"><a class="navColorInicio textWhite" href="src/nosotros.html">Nosotros</a>
+			</li>
+			<li class="navLiInicio"><a class=" textWhite" href="src/recomendaciones.html">Recomendaciones</a>
+			</li>
+			<li class="navLiInicio"><a class=" textWhite" href="index.html#contacto">Contacto</a>
+			</li>
+			<li class="navLiInicio"><a class=" textWhite" href="src/historial.html">Historial</a>
+			</li>
+			<li class="navLiInicio"><a class=" textWhite" href="src/ranking.html">Ranking</a>
+			</li>
+		</ul>
+	</nav>
+			<!-- termina inicio -->
+	<header class="gridAreaheader animateHeader">
+	</header>
+
+							<!--Contacto  -->
+	<main class="gridAreamain">
+		<section>
+			<article>
+				<h1 class="textWhite textCenter">Contacto</h1>
+				<form action="envio.php" method="post" id="contacto">
+					<fieldset>
+						<legend class="textWhite textCenter">Datos</legend>
+					<label class="textWhite textPadding textMargin" for="nombre">Nombre</label>
+					<input type="text" placeholder="Analia" name="nombre" id="nombre">
+					<label class="textWhite textMargin" for="email">Email</label>
+					<input type="email" placeholder="mail@mail.com" name="email" id="email">
+					<label class="textWhite textMargin" for="país">País</label>
+					<input type="text" placeholder="Argentina" name="país" id="país">
+					</fieldset>
+					<fieldset>
+						<legend class="textWhite textCenter">Uso con mas frecuencia</legend>
+						<label class="textWhite textMargin" for="lluvia">Lluvia</label>
+						<input type="checkbox" name="lluvia" id="lluvia">
+						<label class="textWhite textMargin" for="pantano">Pantano</label>
+						<input type="checkbox" name="pantano" id="pantano">
+						<label class="textWhite textMargin" for="olas">Olas</label>
+						<input type="checkbox" name="olas" id="olas">
+					</fieldset>
+					<fieldset>
+					<label class="displayFlex textWhite textMargin" for="mensaje">Comentario</label>
+					<textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+					<input type="reset" value="borrar todo">
+					<input type="submit" value="enviar">
+					</fieldset>
+				</form>
+			</article>
+		</section>
+	</main>
+	<!-- Redes sociales -->
+	<footer class="textCenter pie gridAreafooter">
+		<h3 class="textWhite textMargin">Redes sociales</h3>
+		<a class="textMargin" href="https://facebook.com" target="_blank">
+			<img class="rotate" src="fotos/facebook.png" alt="Logo facebook" width="3%">
+		</a>
+		<a class="textMargin" href="https://twitter.com" target="_blank">
+			<img class="rotate" src="fotos/twitter.png" alt="Logo twitter" width="3%">
+		</a>
+		<a class="textMargin" href="https://youtube.com" target="_blank">
+			<img class="rotate" src="fotos/youtube.png" alt="Logo youtube" width="3%">
+		</a>
+	</footer>
+</body>
+</html>

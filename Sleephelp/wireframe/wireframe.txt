@@ -1,0 +1,27 @@
+INDEX:
+desk:
+https://wireframe.cc/SAoe1q
+
+phone:
+https://wireframe.cc/y2SDkR
+
+NOSOTROS:
+desk: 
+https://wireframe.cc/8FSt5U
+
+phone: https://wireframe.cc/rFcbw7
+
+Recomendaciones
+desk: https://wireframe.cc/e2wNuU
+
+Phone: https://wireframe.cc/UVQJ7N
+
+HISTORIAL:
+desk: https://wireframe.cc/CBMyQh
+
+phone: https://wireframe.cc/QelwCS
+
+Ranking:
+desk: https://wireframe.cc/y13yUQ
+
+phone: https://wireframe.cc/kMpUhp
