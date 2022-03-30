@@ -100,7 +100,10 @@ footer{
 	margin: 10px;
 }
 
-
+.div-img-reco{
+	display: inline-grid;
+	justify-content: space-between;
+}
 
 .textPadding{
 	padding: 5px;

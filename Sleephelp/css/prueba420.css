@@ -1,0 +1,17 @@
+.rotate:hover{
+	transform: rotateZ(360deg);
+	transition: transform 0.5s;
+
+}
+label {
+    font-weight: 600;
+    color: #555;
+}
+body {
+  background: red;
+}
+
+.volumen-custom{
+	padding: initial;
+	align-content: center;
+}

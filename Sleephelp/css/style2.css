@@ -4,14 +4,14 @@
 	font-family: 'Rubik', sans-serif;}
 
 
-html{
-	font-size: 62.5%;
-}
 body{
+	min-height: 100hv;
 	background-image: url(../fotos/background.jpg);
 }
 
 body nav ul li a{
+
+			font-size: 2rem;
 
 			text-decoration: none;
 			color: whitesmoke;
@@ -20,16 +20,22 @@ body nav ul li a:hover{
 			color: rgba(255, 194, 84, 1)
 		}
 
-
+body nav label{
+	display: grid;
+	font-size: 5rem;
+	font-weight: 300;
+	line-height: 2.7rem;
+	text-align: center;
+}
 section	article{
+	display: gr;
 	font-size: 2rem;
-	/*color: rgba(0, 0, 0, 1.0);*/
+	color: rgba(0, 0, 0, 1.0);
 	font-weight: 300;
 	line-height: 2.7rem;
 }
 
 main section article fieldset{
-	font-size: 2.3rem;
 	line-height: 2rem;
 	margin: 20px;
 	padding: 30px;
@@ -60,6 +66,10 @@ footer{
 
 				/*Camelcase General*/
 
+
+.textDeco{
+	text-decoration: none;
+}
 
 .textCenter{
 	text-align: center;
@@ -103,7 +113,7 @@ footer{
 
 }
 
-.gridAreanav{
+/*.gridAreanav{
 	grid-area: nav;
 }
 
@@ -118,7 +128,7 @@ footer{
 .gridAreafooter{
 	grid-area: footer;
 }
-
+*/
 				/*media queries*/
 
 
@@ -226,7 +236,39 @@ fieldset{
 	animation-timing-function: ease-in;
 }
 
-header{
+			/*BS carrusel y otras cosas quizas*/
+
+.carousel {
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  background: rgba(0,0,0,0.7);
+  padding: 10px 5px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.font-section-div{
+	font-size: 160%;
+}
+
+.font-volumen{
+	font-size: 80%;
+}
+.conteiner-div{
+	display: flex;
+	padding: 1.5rem;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+/*header{
 	height: 75vh;
 	animation-name: animateHeader;
 	animation-duration: 5s;
@@ -243,3 +285,4 @@ header{
 	50%{background-image: url(../fotos/inicio3.jpg)}
 	100%{background-image: url(../fotos/inicio4.jpg);}
 }
+*/
